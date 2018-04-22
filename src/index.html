@@ -28,6 +28,18 @@
     }
   </script>-->
 
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK,js" async></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "ca7c0b32-db2b-4498-baee-e2def37fd864",
+      autoRegister: false,
+      notifyButton: {
+        enable: true
+      }
+    }]);
+  </script>
+
   <link href="build/main.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="https://cssgram-cssgram.netdna-ssl.com/cssgram.min.css">
